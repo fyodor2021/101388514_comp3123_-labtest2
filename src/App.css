@@ -1,0 +1,55 @@
+.background{
+    width: 100vw;
+    height: 50vw;
+    background-image: url('./assets/Blue_Sky.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .7;
+    filter: blur(4px);
+    position: relative;
+    border-radius: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input-component-container{
+    position: absolute;
+
+}
+.input{
+    width: 40vw;
+    height: 50px;
+    filter: blur(0px);
+    border-radius: 30px;
+    border-style: hidden;
+    padding: 20px;
+    font-size: 40px;
+}
+.hours-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    margin:4px;
+
+}
+.hourshow-container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    margin: 3px;
+    padding: 3px;
+}
+.weather-icon{
+    width: 50px;
+    height: 45px;
+}
